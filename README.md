@@ -1,1 +1,2 @@
-# KB - Windows PowerShell framework for keyboard leds animations
+# KB
+Windows PowerShell framework for keyboard leds animations
