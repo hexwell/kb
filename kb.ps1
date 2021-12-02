@@ -105,6 +105,11 @@ function PulseL($Duration) {
   F 0 0 1 $Duration
 }
 
+function PulseCapsLock {
+  F 0 1 0 50
+  F 0 0 0 200
+}
+
 cls
 
 $Dur = 150
@@ -120,6 +125,8 @@ BounceOut $Dur
 Droplet ($Dur + 50)
 PulseR ($Dur - 50)
 PulseL ($Dur - 50)
+
+# PulseCapsLock
 
 }} finally {
   F 0 0 0 0
